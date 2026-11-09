@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "renault - duster 20 d 4x4",
+  "description": "RENAULT/DUSTER 20 D 4X4, ANO FAB./MOD. 2016/2016, PLACA\nFYL0042, CHASSI 93YHSRC4NGJ255028, Nº MOTOR\nF4RF414C001412, RENAVAM 01085897319, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108406). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP) · Leiloeiro: Sodré Santoro · Local: Cesário Lange, SP · utilitarios leves",
+  "url": "https://www.achalote.com/lote/sodresantoro/2814346",
+  "image": [
+    "https://assets.achalote.com/imgs/sodresantoro/0062472c8fdc2d1ab7512d7b9ab40ea9a9c45414.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/0ab5e9249b79410d0e9a0b7d7d17d89d5419b890.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/7c5c706885c25e9c7ae2abaa94a9988ad3aa9ff7.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/253e5c100ca462ad391f734ebbd02239979fead3.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/47676e7aaca21cb316827b713246f5269053e774.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/06ea06f8f14f2819eac8cfe0eacbad117152d565.webp"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "achalote",
+    "url": "https://www.achalote.com"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "renault - duster 20 d 4x4",
+    "description": "RENAULT/DUSTER 20 D 4X4, ANO FAB./MOD. 2016/2016, PLACA\nFYL0042, CHASSI 93YHSRC4NGJ255028, Nº MOTOR\nF4RF414C001412, RENAVAM 01085897319, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108406). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP)",
+    "category": "utilitarios leves"
+  }
+}

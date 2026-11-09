@@ -1,0 +1,2254 @@
+[
+  {
+    "arquivo": ".DS_Store",
+    "bytes": 10244,
+    "sha256": "c69f4f849187be916bda55f0becaa8cc705db0f7dcb62ed2181faa946f9d7c49",
+    "tipo": "",
+    "paginas": null,
+    "texto_extraivel": "não se aplica"
+  },
+  {
+    "arquivo": "Carros_lista.pdf",
+    "bytes": 7143504,
+    "sha256": "b9fd95a03e4ab12e54b317f57797d02eb7001538033b7af36d1573802e720dfc",
+    "tipo": ".pdf",
+    "paginas": 12,
+    "texto_extraivel": "não / insuficiente; OCR necessário",
+    "caracteres_por_pagina": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arquivo": "Condições de venda.md",
+    "bytes": 35301,
+    "sha256": "1ab02c89fead68fd9665b3945fa8d7d943e43800d68dbd6227f5124c7c1adb64",
+    "tipo": ".md",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 184
+  },
+  {
+    "arquivo": "Edital.pdf",
+    "bytes": 3116192,
+    "sha256": "328b7f2d55c5d208fa3ffbdee02714a71a3293b25217d633e6b40ef4a3250995",
+    "tipo": ".pdf",
+    "paginas": 12,
+    "texto_extraivel": "não / insuficiente; OCR necessário",
+    "caracteres_por_pagina": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arquivo": "Resolucao_Contran.pdf",
+    "bytes": 367032,
+    "sha256": "56be800fec71c3939e5448149fdf124ee56ace7b412dbf64965372add5ebffc1",
+    "tipo": ".pdf",
+    "paginas": 3,
+    "texto_extraivel": "sim",
+    "caracteres_por_pagina": [
+      14404,
+      16167,
+      14307
+    ]
+  },
+  {
+    "arquivo": "Resolucao_SGGD.pdf",
+    "bytes": 506917,
+    "sha256": "09c2bf85148d625a80bbb6f8f0bf06f124702eb275a1713b7ad0db5f29b37d6c",
+    "tipo": ".pdf",
+    "paginas": 2,
+    "texto_extraivel": "não / insuficiente; OCR necessário",
+    "caracteres_por_pagina": [
+      0,
+      0
+    ]
+  },
+  {
+    "arquivo": "aviso_licitação.pdf",
+    "bytes": 381734,
+    "sha256": "9f01272f23f449bdbfa860b5dc83e7f4a23534519f6cbf97ff8ce51308f0b274",
+    "tipo": ".pdf",
+    "paginas": 1,
+    "texto_extraivel": "não / insuficiente; OCR necessário",
+    "caracteres_por_pagina": [
+      0
+    ]
+  },
+  {
+    "arquivo": "carros_conferencia.csv",
+    "bytes": 4000,
+    "sha256": "fcca8fc984e1e668b03681322ed2f5f497377556778661d58d4b7a10b9e824fb",
+    "tipo": ".csv",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 15
+  },
+  {
+    "arquivo": "carros_interesse.csv",
+    "bytes": 2590,
+    "sha256": "b309e2118d2689dbaab1dd10efb6058ea477f44d4443d55f967d31fcf7be1c58",
+    "tipo": ".csv",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 15
+  },
+  {
+    "arquivo": "comparacao_preliminar_carros.md",
+    "bytes": 32979,
+    "sha256": "1c51565bbdedd48cb9a640cd2d353c2a7bcc60ba0b945a52254401905fbc8c7e",
+    "tipo": ".md",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 288
+  },
+  {
+    "arquivo": "comprovacao_de_propriedade.pdf",
+    "bytes": 6829276,
+    "sha256": "976b1c8d96cc630aba8229eae4b00fdb51ed16558e5e8a155ad330cc3bd833b8",
+    "tipo": ".pdf",
+    "paginas": 18,
+    "texto_extraivel": "não / insuficiente; OCR necessário",
+    "caracteres_por_pagina": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "arquivo": "contexto_memoria_leilao_003_2026.md",
+    "bytes": 357601,
+    "sha256": "7bb2a076b9544a07a7a5d946b0dc91f263ea45f14440843f4beb438f6edc61d4",
+    "tipo": ".md",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 3115
+  },
+  {
+    "arquivo": "evidencias/.DS_Store",
+    "bytes": 8196,
+    "sha256": "394aef10363818e6c5617f8c19425a3a689317c247cb42c117344247f28ee83c",
+    "tipo": "",
+    "paginas": null,
+    "texto_extraivel": "não se aplica"
+  },
+  {
+    "arquivo": "evidencias/123/descricao.json",
+    "bytes": 1878,
+    "sha256": "07283aee57d6487a702490c14188d8a241af0bd5a66ac35df3d06dec1a09a28c",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/123/fontes.json",
+    "bytes": 710,
+    "sha256": "ad44c527fc63c503960bceb5f8741d2e66e08c52c24e3cbf73a115d3701190a7",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/123/foto_01.webp",
+    "bytes": 16238,
+    "sha256": "b35e20ca6678583fdc75e4df1da3c432c6939e48965080975199179c1ef999c8",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/foto_02.webp",
+    "bytes": 12784,
+    "sha256": "eedb354ff0e3bc870804fc212012a31b0eca2669d5d475300365a34672c7b621",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/foto_03.webp",
+    "bytes": 15476,
+    "sha256": "c827a596ef4b32c15b447dcfbfe18d33c253a686af37c2b2dc2923a52d9d804e",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/foto_04.webp",
+    "bytes": 11030,
+    "sha256": "f9525bfd6592a8db723e3e19e03c47f541f80c12bf162640ef7af8df7a596568",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/foto_05.webp",
+    "bytes": 15748,
+    "sha256": "a2d891de25c8b2b9cb528afc4f69b4283eabf7b87db7bbbef887fd2f68a5fc4c",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/foto_06.webp",
+    "bytes": 11212,
+    "sha256": "70e0b99725ecc82ca35e455637e577ddf4e49fea82f82739c7f301fc0d620cc0",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/galeria.png",
+    "bytes": 779254,
+    "sha256": "05475500747721a3989eeac666e6ca4908fd3d9cba551326e1055e154d5e3438",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/123/pagina.html",
+    "bytes": 136898,
+    "sha256": "0f0b048db858bd99712931f518e64efec889c1ff945aefe6589b9346f502a808",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/123/texto.txt",
+    "bytes": 104492,
+    "sha256": "5c5630ee500af3fb895f5878b6434e32f9cc8b1a049d686b50336b8dcd750713",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 196
+  },
+  {
+    "arquivo": "evidencias/194/descricao.json",
+    "bytes": 1908,
+    "sha256": "98eb05891e6257c1c7e885434aa4d92a4c23503ac16e72728f5f18aa31f9d2cf",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/194/fontes.json",
+    "bytes": 710,
+    "sha256": "99ac437e4a69293380f0826da3041a1a4e0b2bdfffffaa0114b3d6cb71846cde",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/194/foto_01.webp",
+    "bytes": 15344,
+    "sha256": "312c151f64b922f557ea97d315b78b6c0d9ecba07e1a1658ec6a171dccb4e2e9",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/foto_02.webp",
+    "bytes": 12656,
+    "sha256": "74cea92a52dafe0591206a77f0ff929d6196c18af0c684a8e78a22007c5c0061",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/foto_03.webp",
+    "bytes": 15806,
+    "sha256": "496479d50a72b7b239d2d3b0ce14c967455394e2d6a9b8f57f5af91baef87d8f",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/foto_04.webp",
+    "bytes": 13386,
+    "sha256": "60292dd7ef65820e67b0623876ac93e9149f18efe20d449412a9d76e9c658024",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/foto_05.webp",
+    "bytes": 16922,
+    "sha256": "3f963cb3614202529292252943a92fb683bf2b0eeed1ce2c849d51f57b4c6c45",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/foto_06.webp",
+    "bytes": 10344,
+    "sha256": "bf406c4663a2ebd91d18430605af5a525d71bae108358b4b2d1a55c22e95e0ed",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/galeria.png",
+    "bytes": 771459,
+    "sha256": "d44d635b4da80cec799cf7db36300d1cb5c45a3c975f0856dd2cbeedebaa7e28",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/194/pagina.html",
+    "bytes": 128364,
+    "sha256": "3ae0698be92f64550de795be0fa407b3e64928a199b192622111f394bcc5183f",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/194/texto.txt",
+    "bytes": 95920,
+    "sha256": "2d666569f75a3f0213e668131df6b6c4de7c80d0347c0f8e429e17dd843d1008",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 196
+  },
+  {
+    "arquivo": "evidencias/224/descricao.json",
+    "bytes": 1912,
+    "sha256": "dbb95386c5b71f7c875d4070609830c29ef5be7f7c1b4d39caf178e39cd90d76",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/224/fontes.json",
+    "bytes": 710,
+    "sha256": "7c99e71510b716491bff52bc2f34f271810e4e4b7a404476c492a0956d9e65c7",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/224/foto_01.webp",
+    "bytes": 14704,
+    "sha256": "b6ae1297f57e68c23d13fcc1fc7a5429ebb1a81796053978c4e5b617d5e81e8b",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/foto_02.webp",
+    "bytes": 13688,
+    "sha256": "4bdc9b2d0a22fb265f050b762aa4cd8e9923bc181566e2f8696709b5cab1dda5",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/foto_03.webp",
+    "bytes": 12688,
+    "sha256": "1665491e0d0933245eec68cb6c6de965f77494e35183c5a05a042620b7d00b73",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/foto_04.webp",
+    "bytes": 12154,
+    "sha256": "b3ce98186826821fba4615d96e4d3010b5b7d01a56502d427c17c6ae03e81fee",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/foto_05.webp",
+    "bytes": 17852,
+    "sha256": "72dfd0c9f47e8a1364549791982bca7bda8de3c937b724661a53610fa822db92",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/foto_06.webp",
+    "bytes": 8588,
+    "sha256": "ff628d0cbd57d1ca4775c34f76078bf4aa7a0e6ad0a5b65b902b92a3b3b9c890",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/galeria.png",
+    "bytes": 740027,
+    "sha256": "46cbe2edad63500b27092d75757b46f1fa0c31525df73ddf588f8d5dbd598bbb",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/224/pagina.html",
+    "bytes": 122479,
+    "sha256": "a4973bd397bb1500d9008f07f47e27d8eaf655a596321a52cb26b13d67581a29",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/224/texto.txt",
+    "bytes": 90356,
+    "sha256": "6c782697e4a2c9f28f1c21d39128533c312fc1bdc45c29321c1f078c4336923a",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 190
+  },
+  {
+    "arquivo": "evidencias/294/descricao.json",
+    "bytes": 1896,
+    "sha256": "5b11274a9c7afa0660e020c0a1db95041f0c84040c3cd47dc2756449e9221206",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/294/fontes.json",
+    "bytes": 710,
+    "sha256": "b5938d61773f8b63deeddbbfed84139f1a556d0e20da6537d41f747b4d6cfd26",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/294/foto_01.webp",
+    "bytes": 15848,
+    "sha256": "c2aeee807fb485d4004cef91ef6cf3229ea8c46ef5f6a521ef958066fc097341",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/foto_02.webp",
+    "bytes": 12190,
+    "sha256": "2931dbe26f0ff9482bc8b70f44ab756fd1bbd8d5bf2a13963ae525f3eadd53bf",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/foto_03.webp",
+    "bytes": 16928,
+    "sha256": "71ec853ed4e2473ea30ea7c157dc1697cda79976f7390782dd47ed96f50a826d",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/foto_04.webp",
+    "bytes": 9620,
+    "sha256": "20019689bd43605117905c1cf9d86697470c4df3fc8a996a686cc7bc921430fd",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/foto_05.webp",
+    "bytes": 16572,
+    "sha256": "5308ff39cbeab73475ffd3f6c926a86ef249a0c4b9786c04e269a8593c2f4bca",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/foto_06.webp",
+    "bytes": 8618,
+    "sha256": "eaf156aff4063e4434a44807e1a14dd6c3b9a88e0ffe35b4203a74870d233252",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/galeria.png",
+    "bytes": 755895,
+    "sha256": "d956ffd4b1552d1a3d74e551c05baf950472e4ba19eddfbce3415b2b285668e0",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/294/pagina.html",
+    "bytes": 139157,
+    "sha256": "6047143f4e930b94fe2b624ef7c9dfad459f44945f8debc8e9ac370fd7408c2f",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/294/texto.txt",
+    "bytes": 106896,
+    "sha256": "3c2880140b5af0cf548b6b3d7b566ce3bc2d956bb9e3a0b4e66479ac639f76fa",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 192
+  },
+  {
+    "arquivo": "evidencias/305/descricao.json",
+    "bytes": 1878,
+    "sha256": "a9d56dec2b00641f6a8da2cf4a4b2d7e757d5c7a647e16f5c371e3be33b982d2",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/305/fontes.json",
+    "bytes": 710,
+    "sha256": "725c6a73aa5d42b105bff3302c523d8fb1bc3f0625314acb17052df3a05ca86e",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/305/foto_01.webp",
+    "bytes": 16612,
+    "sha256": "5fe77bd7734684f6a30ab258f10e77314cfa4101a87216b0315891c2c7014469",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/foto_02.webp",
+    "bytes": 13908,
+    "sha256": "30d01cf0409b21a4f80a17eb429a385cc7554544b1aba147780bc12c4fe03f84",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/foto_03.webp",
+    "bytes": 16860,
+    "sha256": "b14a1d8fe8f5d95a74280117435dfe71510187651a02f9f86498b1ae52cbf2fe",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/foto_04.webp",
+    "bytes": 13866,
+    "sha256": "5d17ced261cf1432e747b001b5bb365c23fe0861135998b0d9d6cd6abd532dac",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/foto_05.webp",
+    "bytes": 18604,
+    "sha256": "ada624ec197a4d8c96788081f3c0274da6794a19543f75b50f2b2cf92664c0be",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/foto_06.webp",
+    "bytes": 9788,
+    "sha256": "bcd03a8217656bd61de77d832da0a89b01b40c38fda4cb1aaede04cc887e0b44",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/galeria.png",
+    "bytes": 809684,
+    "sha256": "a7de04f57d179e957024cdae73e1cad8f9ece7c5b4c975c36d8091200a4692f1",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/305/pagina.html",
+    "bytes": 130034,
+    "sha256": "ae753f7d1a0f1f61ac751f6dd7616eebae634014df19c922a0f1d7ff564bec19",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/305/texto.txt",
+    "bytes": 97277,
+    "sha256": "fc514ee9f88ee37960d5231adab0473566c7559f4ccebe7a2a0992b7a74e561a",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 196
+  },
+  {
+    "arquivo": "evidencias/324/descricao.json",
+    "bytes": 1900,
+    "sha256": "989e3d46ead713a793efd36af9b1b17f7abb18169dac1e57db23cce8c118db0a",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/324/fontes.json",
+    "bytes": 710,
+    "sha256": "96a4e3df9bcf48a5ec225b4042ffca24fee3207c050175f600b25a9834f8beda",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/324/foto_01.webp",
+    "bytes": 15452,
+    "sha256": "d20ec02a4419f0a3dc228fa0bbd9aed5345c7a2fb222f78837abd60742d2e3ee",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/foto_02.webp",
+    "bytes": 13984,
+    "sha256": "fe1e9ab387e9d237923fce04bdd836b776914648de7501e36c66e9b47c488317",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/foto_03.webp",
+    "bytes": 16538,
+    "sha256": "08374443fc6ad16eb35a1246f3058b6dbb0e5cfbfee4f83c8e3c970abf807d21",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/foto_04.webp",
+    "bytes": 12124,
+    "sha256": "244076c34741586a73f7050914044f821b19f84d3173479295be3b8b123c1b68",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/foto_05.webp",
+    "bytes": 17796,
+    "sha256": "7b0c130d53b9e213a650c6e2dea6c56d801cae204f9678cdb1a775c6f23eb782",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/foto_06.webp",
+    "bytes": 8822,
+    "sha256": "49de5201193d4eb6ffd2688b648eb54d0503818c0dd27ede9c1f2b65003e7010",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/galeria.png",
+    "bytes": 768182,
+    "sha256": "c89150c05c600065cb9ed283a9a70ae1f305c5e3bc4af78cfcc41ffe9d7c768a",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/324/pagina.html",
+    "bytes": 148412,
+    "sha256": "55d59c48ea7b82fec312eff616fc5e6b1d7016ad7169e8fbd1bd6eea9db079a5",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/324/texto.txt",
+    "bytes": 116044,
+    "sha256": "ed5914f7fcce6a0497dbb2435a468815940f6040a1e1054be0d965918782c19d",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 198
+  },
+  {
+    "arquivo": "evidencias/388/descricao.json",
+    "bytes": 1900,
+    "sha256": "f519604926595eb9c6d17c094cb9cffc055de6bb1dcb96e1c86153958b352634",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/388/fontes.json",
+    "bytes": 710,
+    "sha256": "9a3b27cb6bf4529ede9b047b0ba78008044ebaf58eb64b566b8f0df9a1f5fc6f",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/388/foto_01.webp",
+    "bytes": 18964,
+    "sha256": "77fbc41c3edd1b76cf0b2070fb4e039e8ab4b0de7f4c1a538728d5af5faf771b",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/foto_02.webp",
+    "bytes": 15348,
+    "sha256": "2f96ec455b04dcf36264e45a5b588af2d53b8459a7f5b424ed8488cfd3130b25",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/foto_03.webp",
+    "bytes": 15370,
+    "sha256": "8078b7e94d8fffcd0475dd8ca9c66fd713ceffd190b505d594348b6bb593b756",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/foto_04.webp",
+    "bytes": 14278,
+    "sha256": "0cf9f59953de2631d865df918dc6d3cf5b60cd30be89447f564cc826b7a00b08",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/foto_05.webp",
+    "bytes": 20738,
+    "sha256": "49df6cea1ad6aa622aac1e0273c927960bac6f16b77d93b8b240643da1e1c950",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/foto_06.webp",
+    "bytes": 8428,
+    "sha256": "02bfe269358f53538a1eb6cd60c5ec8ff77ecec56ba94417eff55cef40059106",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/galeria.png",
+    "bytes": 823444,
+    "sha256": "797f60f1a7f8e7778f8c351ac28b0e8cce2d57d4e2c853c98f5ada4c7e026411",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/388/pagina.html",
+    "bytes": 144450,
+    "sha256": "e76ec60f072ad90471aed29ed5d93375b2fc9e77754dde92f42c5fcf6c761186",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/388/texto.txt",
+    "bytes": 112180,
+    "sha256": "3463926b1b583b840c19402435defd360eedb2f38300d0f4e36bca4e158e46b7",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 198
+  },
+  {
+    "arquivo": "evidencias/410/descricao.json",
+    "bytes": 1878,
+    "sha256": "4d2de26487ec836ef818e895c26dab9cf20ef85d248d5114ff0845876663b110",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/410/fontes.json",
+    "bytes": 710,
+    "sha256": "4cfdc4bfa909b4bc6354f7d88bb79a62d5d73f74dd58ca7aa586ab28c14551af",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/410/foto_01.webp",
+    "bytes": 14882,
+    "sha256": "2620adc4ed70f7ae0be8f7d54102e91deb84df7ed92da3eab4d6b9a8a356d4aa",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/foto_02.webp",
+    "bytes": 9828,
+    "sha256": "af2e6e2178e34d7094fa255f75655123d4f5e956f4256c529161ea28561d4702",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/foto_03.webp",
+    "bytes": 14814,
+    "sha256": "d3e6874ea24c91cf8f48fc45700cb95a26b5492559d4207f1ca9e9576d81e5f2",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/foto_04.webp",
+    "bytes": 13948,
+    "sha256": "859de5b62b5081fac8ac0c5e5beb50a9573b99696c059c9c0324b07fff027f47",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/foto_05.webp",
+    "bytes": 20458,
+    "sha256": "ead8838f9f692c58af09ddad35ba7f1bc0b457d67cceefffd1a5b5c8a1d38482",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/foto_06.webp",
+    "bytes": 5224,
+    "sha256": "19b611b7faea7523ce54c2da5a613e1f7ea26473594a1d456f9837b7198112b2",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/galeria.png",
+    "bytes": 736605,
+    "sha256": "92234324e9a99b066c1fd4bdf95a59e1824656b1072d1ec044d7dee61f253b11",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/410/pagina.html",
+    "bytes": 141684,
+    "sha256": "5b89232d1974e9bdec4d421334f8f2aa59bd6214a1b92c4c3e0eafd0d9b43f07",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/410/texto.txt",
+    "bytes": 109576,
+    "sha256": "694fde6748cf17738bc129416a8cb6a09f9b4716a0fc1c3c6030d4367418e667",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 194
+  },
+  {
+    "arquivo": "evidencias/462/descricao.json",
+    "bytes": 1900,
+    "sha256": "b1050411616f1e63c909e08a70178a3cbda67ec3bad2dd6a9f66899d4c82e4ed",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/462/fontes.json",
+    "bytes": 710,
+    "sha256": "0428d3d3f21d9367b4e646a010078feb3ddc4187894acd7b96e8b6c7936a1823",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/462/foto_01.webp",
+    "bytes": 19086,
+    "sha256": "9e1121a74b4380a94f4c9bede538f22f87f92a7545fdc71613368fb074717b8c",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/foto_02.webp",
+    "bytes": 12376,
+    "sha256": "da9356ccb56a69d76f975a68e29b4f7fd2c0f94b20058521a348f7d6d1a5f6d6",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/foto_03.webp",
+    "bytes": 13602,
+    "sha256": "59c3e4071d8d2217a3456744da6080b38a0bd19eb4441a4e116004750b581889",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/foto_04.webp",
+    "bytes": 10052,
+    "sha256": "a9cfa2a26d8e5f83404436496ef639d2bc8c5db46895da8b0ae4d8387c85c98d",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/foto_05.webp",
+    "bytes": 19674,
+    "sha256": "4800d16984a9bf784ab2e6c9670d1f2188e876a48635674f8efe0b7e1d38f648",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/foto_06.webp",
+    "bytes": 8636,
+    "sha256": "3da06396b42693d54e1d1f53e278df66586067af657de5d686fedee5fc60a653",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/galeria.png",
+    "bytes": 769054,
+    "sha256": "10b1bb2245d98b37f157abed8f97287d687e297b18b82018a815ae673afe4a25",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/462/pagina.html",
+    "bytes": 138362,
+    "sha256": "d3e3e661ab2365b6de435e114356f109de8326452bf7fd0ff6fd8c8dec378b29",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/462/texto.txt",
+    "bytes": 105830,
+    "sha256": "f8140631e782c03ad9da6543deec8be3ca8ffe77ed7d40751bc88d19ec77b0ce",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 194
+  },
+  {
+    "arquivo": "evidencias/463/descricao.json",
+    "bytes": 1900,
+    "sha256": "393ffd2ae129480564103c4f2c0132ab73dce5e8323415d44f1017b8ad09800a",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/463/fontes.json",
+    "bytes": 710,
+    "sha256": "df7954af38955c5452606542a563cf845d13321731e2d0e06242993c0d70d1ee",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/463/foto_01.webp",
+    "bytes": 18458,
+    "sha256": "6132fd8b5f4560077e70657e029a5ba09e3545159a1b59735f4a1a5f1f7ff528",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/foto_02.webp",
+    "bytes": 14598,
+    "sha256": "1d610514d7a546beeacb8abf3aed787cfee98319884db582d6999e169d43c43c",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/foto_03.webp",
+    "bytes": 14010,
+    "sha256": "1acfba06f8fb1fceb107a6b49edfb6e3bdcb3d7ae7a08981e80f1af0198f90d1",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/foto_04.webp",
+    "bytes": 9066,
+    "sha256": "388b45ad6b1675eb61c7e4c78bd8f9073e179625b8a67359d439a722fd79025f",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/foto_05.webp",
+    "bytes": 19190,
+    "sha256": "fe59ce563990c78dddc30eb038df1a3145d04f4b05ddb423dd4e4d040ca1e496",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/foto_06.webp",
+    "bytes": 8918,
+    "sha256": "3142559a09b20c3c400d33d2406c21fd24ba3c27e5be578205ddce6983411019",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/galeria.png",
+    "bytes": 779287,
+    "sha256": "2d563e5753bafe54d40b181d00b282e04b4c703f1ca4cc9b4a6d35d7fa7eada1",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/463/pagina.html",
+    "bytes": 141322,
+    "sha256": "2f20a495956a716a008e56667ee4b1c522b983a3a8306221e54e3a99c8d2b151",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/463/texto.txt",
+    "bytes": 108842,
+    "sha256": "f05a371059ebe521e3e5ab3d02ceecded9a0cc133e2456f43fd842c07860ffdf",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 198
+  },
+  {
+    "arquivo": "evidencias/468/descricao.json",
+    "bytes": 1900,
+    "sha256": "85218973f8d1dde809738d8b1099999f7dc930cf587cffde9ac0859b0d08e969",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/468/fontes.json",
+    "bytes": 710,
+    "sha256": "f62f082eae50c4bf4119744935247c3eed5c93ad80126de55bdb78461d16db88",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/468/foto_01.webp",
+    "bytes": 15520,
+    "sha256": "489df085f267f6294d5f6177e11bf089c5f6cfc3329b1eab1edfc2a4083d331e",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/foto_02.webp",
+    "bytes": 11652,
+    "sha256": "b1f9fa2662ace435226fd354b02d044e2e029076ab35708e619215e5e7652413",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/foto_03.webp",
+    "bytes": 12994,
+    "sha256": "64750219e2ae004acb69a9d6c1adb1903f9d0ace736dfd3989664602f1511e18",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/foto_04.webp",
+    "bytes": 9526,
+    "sha256": "38f9298e37362380b32059ef7a52a45ec2bae60984f192b7b5c16580f5a70c9b",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/foto_05.webp",
+    "bytes": 18682,
+    "sha256": "ce3626f460451032d58be5a94313638251365acd3cefa339d0a0759bed7c2467",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/foto_06.webp",
+    "bytes": 8794,
+    "sha256": "878bdf4964977426b5beb2c2ab97d762ee2fa8f6f12de17ec40c9f4bafb78ba6",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/galeria.png",
+    "bytes": 736479,
+    "sha256": "99245ba51e9322f80101090fc361c0bdf51eced17455317cd7fd61097cf8edd9",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/468/pagina.html",
+    "bytes": 139154,
+    "sha256": "f695d27f34fd1101dc83d069f354de9835ef1d1d76d594d795b920696b8177b0",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/468/texto.txt",
+    "bytes": 106637,
+    "sha256": "60d38abc07587f7c0b628ec03687e4ff702deef60c4084fc3edce21dd8a63c3a",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 197
+  },
+  {
+    "arquivo": "evidencias/522/descricao.json",
+    "bytes": 1900,
+    "sha256": "a126e299360e4f274ca62530dd7229599ef386e68f9f4befa3147f556d77f16e",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/522/fontes.json",
+    "bytes": 710,
+    "sha256": "24923cf60147979bca9463c027c89b4cf3711b981d4b8c947e1a6037b0e6b682",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/522/foto_01.webp",
+    "bytes": 12400,
+    "sha256": "1d0fb7b32aabb226d00b98731fb0853a635e0ff55b38b8d4d3e015b03c1bf4d0",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/foto_02.webp",
+    "bytes": 11374,
+    "sha256": "38b0f7666b9a876de940940eebe4847e7d052d29b85bae1cd19446ff722801f6",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/foto_03.webp",
+    "bytes": 15266,
+    "sha256": "c4a0d388e96d93a186fabda8464af7d420fbcc790115a4be44821c7148904d1a",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/foto_04.webp",
+    "bytes": 12502,
+    "sha256": "b8cb7d5b2fb61f5658a0e03984eaea81ee4c5f1dbfeea533b22cb9d4de7e1b9f",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/foto_05.webp",
+    "bytes": 15628,
+    "sha256": "c6dc52bd473c9b4eb5421425a3da00f82be8d191b78ebb1a20d0017d9e968a1b",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/foto_06.webp",
+    "bytes": 8512,
+    "sha256": "7a2b75702cf696f7cdeaf64b524c23ec62bc242bc4d6425f355a29ba34a90cf0",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/galeria.png",
+    "bytes": 743403,
+    "sha256": "2e8206ee52de0d02e06351b9bcca00fc5a588e6e1fa82023c3146c7c8f49765e",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/522/pagina.html",
+    "bytes": 132996,
+    "sha256": "809c28df365c7e2888c03694ce0f8a228f41b4bcdd65ee496791c98a35dd89d6",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/522/texto.txt",
+    "bytes": 100650,
+    "sha256": "8348cb9f55aa5ba5733a9362d389f99e7d8bb2363127b9a6ee75b64defaf380e",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 194
+  },
+  {
+    "arquivo": "evidencias/556/descricao.json",
+    "bytes": 1908,
+    "sha256": "235a89f9499bde2f168ac9cecdd40e69c7b97d9f7cad71018f280d460d5a91a4",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/556/fontes.json",
+    "bytes": 710,
+    "sha256": "f6e438ddcc626556846d40a869f974bc9d2c709309eeee7c81503ba372a2ec15",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/556/foto_01.webp",
+    "bytes": 15146,
+    "sha256": "ee253d0a8648a33923c070659bfe7f6ea3c866fcc4f2f2f2038ab0da016d3e2f",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/foto_02.webp",
+    "bytes": 11994,
+    "sha256": "b655789037b14e3ee55e15d56bc8e2a61447d38e867ce9819b8f36414f8d94e9",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/foto_03.webp",
+    "bytes": 14750,
+    "sha256": "a8f0aba389069951ded44301b40fe4f2c207f731455209e9b48743f50d2429b6",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/foto_04.webp",
+    "bytes": 13118,
+    "sha256": "5476e57784c5c4a684edebc93ac19dd7d604d381cedc4214f7f680fa5efb0f20",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/foto_05.webp",
+    "bytes": 16350,
+    "sha256": "a4e71f019c5ef5d48e2c1380d4fdc2c7e88c093d9c68b515da1cb8e63a7e6ed9",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/foto_06.webp",
+    "bytes": 7950,
+    "sha256": "85a028c874eda2685449b0416523723eab72aba9bd38391981692f6843d044c1",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/galeria.png",
+    "bytes": 740423,
+    "sha256": "82666eb38cda28d8d90cc84bfbbb338bab9ad8de76b532b2ed018309fd78fa84",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/556/pagina.html",
+    "bytes": 141876,
+    "sha256": "ad973f9d3de82120424e323e5001d341d8a328c4cd53fa0bbda24fdc2c06eaac",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/556/texto.txt",
+    "bytes": 109642,
+    "sha256": "396dde0bdae107c89e66b362208f9cb426c6aa9b03b1b6be4f03720bb5e7d23c",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 196
+  },
+  {
+    "arquivo": "evidencias/97/descricao.json",
+    "bytes": 1886,
+    "sha256": "28978ea84e2df129d33a69d687901a23d134b3ca8f923a50532902f24a2a9fe5",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26,
+    "estrutura": "dict: 8 elementos"
+  },
+  {
+    "arquivo": "evidencias/97/fontes.json",
+    "bytes": 709,
+    "sha256": "63ae9214876ae93a68df6b9b9aea85984eda54f504cc01b264c0ae1ac7581e96",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13,
+    "estrutura": "dict: 4 elementos"
+  },
+  {
+    "arquivo": "evidencias/97/foto_01.webp",
+    "bytes": 17774,
+    "sha256": "83f1d8a68a93a508bad316b9205d3814dc94afa96ac06dc2ad89b207a61b4c1d",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/foto_02.webp",
+    "bytes": 14462,
+    "sha256": "49583f1f95e9909c226d036690f8fee03011f74a0a225aaad945996a518e58c7",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/foto_03.webp",
+    "bytes": 17370,
+    "sha256": "860e2799e20ebc48d44cf737100b602565a1f6db0be859a1d2f1812c816927ae",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/foto_04.webp",
+    "bytes": 14560,
+    "sha256": "b6fcff31e1e73711aa15c586823ba470c6fee9d5f656d7de2469531395812c21",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/foto_05.webp",
+    "bytes": 19966,
+    "sha256": "44424baec9fce5a6b0b4debee9e79ec4ec0980adfc58a4d6918e28533a5225c6",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/foto_06.webp",
+    "bytes": 9754,
+    "sha256": "97e8e4e7c2be3957de21a1549af3a1f59e0fc8633e90ca47214a66149c266789",
+    "tipo": ".webp",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      320,
+      240
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/galeria.png",
+    "bytes": 828715,
+    "sha256": "4ff66225fca74b47ca4973f2b861ee7f31e14c037614691418008230e42d9152",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      960,
+      540
+    ]
+  },
+  {
+    "arquivo": "evidencias/97/pagina.html",
+    "bytes": 139544,
+    "sha256": "9cf766e0d13c9cc0f84b52e9321a1ee6aba7104dc4960650f24fb51f4385fa1f",
+    "tipo": ".html",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 13
+  },
+  {
+    "arquivo": "evidencias/97/texto.txt",
+    "bytes": 106904,
+    "sha256": "ef02450b3c4d4a91e03268b485d48820742da3ca4c738a7a11a17db966ae5a00",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 196
+  },
+  {
+    "arquivo": "evidencias/carros_interesse_original.csv",
+    "bytes": 2588,
+    "sha256": "1bd6952634a5333f76ecd7b3bb208cec09efcd5c4ad2f4a820f2b8e3d1e163b4",
+    "tipo": ".csv",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 15
+  },
+  {
+    "arquivo": "tmp/.DS_Store",
+    "bytes": 8196,
+    "sha256": "45594af9632e8e495769278b0a79418631cbfd2c3a7e1a79529df6006a3946c4",
+    "tipo": "",
+    "paginas": null,
+    "texto_extraivel": "não se aplica"
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista.json",
+    "bytes": 608647,
+    "sha256": "3fac00994eec2721c1c9cca373f16139ed044b494b9749a54f574e5766541c8c",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 4510 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista.png",
+    "bytes": 696043,
+    "sha256": "89dd2739503b67398a2e1241ffd194fcb9ae9a4f7ea1ef3dd6372d6a95ffb601",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      1785,
+      2525
+    ]
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista.txt",
+    "bytes": 71416,
+    "sha256": "efd290b2a165b45aa0780a764325ce367f896d457e7c3f5b4d2e5ad639ad7b49",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 4534
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_cols.json",
+    "bytes": 528307,
+    "sha256": "50544e4881b007d8eb845f013a18914ddc7375094772987b468b4a4a1ff16bb7",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 3757 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_cols.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_lines.json",
+    "bytes": 3107,
+    "sha256": "3f6fa34909da62ce1ab5086b1bf8f05719dc439e4f3d3669bc7e1790cb8487c4",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 12 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_lines.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_strips.json",
+    "bytes": 876156,
+    "sha256": "11237731d8d9f715383a9f4b1f470192ca85af5773529beba174f2fdb8a65de3",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 6575 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/Carros_lista_strips.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/Edital.png",
+    "bytes": 795884,
+    "sha256": "8e7213064671774683454167bb7cc87d2d2aa1af90cb10b944c01297589b5e76",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      1785,
+      2525
+    ]
+  },
+  {
+    "arquivo": "tmp/analise/Edital.txt",
+    "bytes": 36086,
+    "sha256": "a28c54618a18ea7f04ba7e5333c27f1a2f94c9234f2b8ac5521fa86fb173c3f6",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 544
+  },
+  {
+    "arquivo": "tmp/analise/Resolucao_Contran.txt",
+    "bytes": 47244,
+    "sha256": "7687c6b91d6c750548db8aac18edb38fc7927b21b77a5d3dd823a7b70d71ab00",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 716
+  },
+  {
+    "arquivo": "tmp/analise/Resolucao_SGGD.png",
+    "bytes": 702547,
+    "sha256": "2668b261272c7ce033ff8c137db357c3ee9379d50b1d5be9b2bafe8d90bdf68b",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      1785,
+      2525
+    ]
+  },
+  {
+    "arquivo": "tmp/analise/Resolucao_SGGD.txt",
+    "bytes": 3507,
+    "sha256": "00a09298eeda37dc0719c0c7983338aadcee761c86529f3222706920db60e0eb",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 50
+  },
+  {
+    "arquivo": "tmp/analise/aviso_licitação.png",
+    "bytes": 625338,
+    "sha256": "c1f78724dbaa5393b55d5d513333b0e30197cee1e22a096199ce6e93d4e3ff52",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      1785,
+      2525
+    ]
+  },
+  {
+    "arquivo": "tmp/analise/aviso_licitação.txt",
+    "bytes": 2037,
+    "sha256": "51713f448cb3586e0ebe8449396ff9221aae9a502b8310f74eb0d752b49d172c",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 33
+  },
+  {
+    "arquivo": "tmp/analise/colunas.swift",
+    "bytes": 2130,
+    "sha256": "0a058681b158267eef80c8d3ebfa502b30f7963691e3abd049cc4d26b7534675",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 28
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade.json",
+    "bytes": 547259,
+    "sha256": "92e9251b3d3e458b87803422bbd9129692f931ab5a539f32a0bf00e7f6111908",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 4072 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade.png",
+    "bytes": 685540,
+    "sha256": "911ee558086ca33db646e91a5ab6f582d924c72ac4550c6f63232e678554fd0f",
+    "tipo": ".png",
+    "paginas": null,
+    "texto_extraivel": "não se aplica",
+    "dimensoes": [
+      1785,
+      2525
+    ]
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade.txt",
+    "bytes": 63416,
+    "sha256": "418bddad53bc0497b12fc86fa881ab4b045276041ee9acb70cdd44a1078fd4f6",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 4108
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_cols.json",
+    "bytes": 540750,
+    "sha256": "85efaf63243789e020d0b49135f0d2921736786d2d6c98e68799d66793d2e906",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 3809 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_cols.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_lines.json",
+    "bytes": 4310,
+    "sha256": "9ebf7aa9f29629292ba132b72f0cc546f282731f5eb514b36e801d38cf04dbb0",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 18 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_lines.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_rotated.json",
+    "bytes": 63472,
+    "sha256": "22d88a9d193035fb8b21f9e7de415ae6a800e4048307ca376f08d977c438c208",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 471 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_rotated.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_strips.json",
+    "bytes": 592998,
+    "sha256": "a36bb1c8c0ab27dfad4253c0afde92eff00b76c0ecc04eca80157d039c83aecf",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 1,
+    "estrutura": "list: 4381 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/comprovacao_de_propriedade_strips.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tipo": ".txt",
+    "paginas": null,
+    "texto_extraivel": "vazio",
+    "linhas": 0
+  },
+  {
+    "arquivo": "tmp/analise/extrair.swift",
+    "bytes": 484,
+    "sha256": "931f2e175002309a0964c95d4976b856fe4963c099c7f561297adbdb772ea1e0",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 10
+  },
+  {
+    "arquivo": "tmp/analise/faixas.swift",
+    "bytes": 1887,
+    "sha256": "cc976afa62529e9eec471dcb086729caaa5a0f95bbd27c160c5f6feda829dc51",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26
+  },
+  {
+    "arquivo": "tmp/analise/gerar_memoria.py",
+    "bytes": 35734,
+    "sha256": "237121488153271f816faa45588b53ac510a73bf734d807226b8d75d7abfc40c",
+    "tipo": ".py",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 352
+  },
+  {
+    "arquivo": "tmp/analise/linhas.swift",
+    "bytes": 1738,
+    "sha256": "bfd1894f0800472c4bb70ce66cb7bdc73306287a6f69b9547170c8116db77364",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 29
+  },
+  {
+    "arquivo": "tmp/analise/lotes_rows.json",
+    "bytes": 172395,
+    "sha256": "89228db9c28039a29832504a21c7b67f19649cf85f65ad202d0fbd4255c1d45a",
+    "tipo": ".json",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 9233,
+    "estrutura": "list: 543 elementos"
+  },
+  {
+    "arquivo": "tmp/analise/montar_tabelas.py",
+    "bytes": 893,
+    "sha256": "3f5430384487cb2987fbdb3cdaa299db012f6ad73ecb8b997e18b66e71988e63",
+    "tipo": ".py",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 17
+  },
+  {
+    "arquivo": "tmp/analise/ocr.swift",
+    "bytes": 1452,
+    "sha256": "7b35865716639b0de972083b558b69d2dd32460c43fb6bd4d6820a92932981a6",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 22
+  },
+  {
+    "arquivo": "tmp/analise/rotacao.swift",
+    "bytes": 1789,
+    "sha256": "b8b3a7c17b3333d7a3d953a21cca738e5e06bb305d36c4e61e8f5648bbf08610",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 26
+  },
+  {
+    "arquivo": "tmp/analise/tabelas.swift",
+    "bytes": 1824,
+    "sha256": "5e54f54c122972e50b9f915e7d335178a23a6c7763dd9c9c5a90bf248a4fc710",
+    "tipo": ".swift",
+    "paginas": null,
+    "texto_extraivel": "sim",
+    "linhas": 24
+  }
+]

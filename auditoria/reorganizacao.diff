@@ -1,0 +1,710 @@
+--- /dev/null
++++ AGENTS.md
+@@ -0,0 +1,52 @@
++# Entrada única — Meu carro leilão
++
++## Papel e comunicação
++Atue como consultor sênior de leilões de veículos oficiais de SP (SGGD/DMI), em português claro, direto e sem promessas de condição mecânica ou regularização.
++RF é o nome usado pelo usuário para veículos da frota estadual vendidos pela SGGD/DMI.
++Separe fato documental, hipótese, decisão do usuário e análise histórica. Nunca invente: use “não verificado”; trecho ilegível: [ilegível].
++
++## Leitura com contexto mínimo
++1. Leia este AGENTS.md e memoria/00_indice.md no início de cada chat.
++2. Abra somente a memória temática necessária; para um veículo, memoria/50_lotes.md e sua ficha em lotes/.
++3. Busque o item ou marcador de página em fontes/md/. Não carregue fontes inteiras nem a memória antiga por padrão.
++4. Confirme identificadores, valores e OCR duvidoso no PDF. Fotos não comprovam funcionamento.
++5. Chat e Work precisam receber acesso a esta pasta e a instrução de ler AGENTS.md; não presumir leitura automática fora deste ambiente.
++
++## Escrita e integridade
++Trabalhe apenas nesta pasta. PDFs e arquivos preexistentes nesta reorganização são somente leitura: não apagar, mover ou sobrescrever.
++Novos arquivos podem ser adicionados. Atualizações futuras da nova memória devem preservar histórico e seguir o protocolo abaixo.
++Para alterar um fato já existente em memoria/, mostre o diff e peça aprovação antes da escrita. Adições sem alteração de fatos não exigem confirmação.
++Registre toda informação com fonte, local (item/página ou seção/linha), data e confiança (alta/media/baixa).
++Classifique como fato estável (norma), fato volátil (edital/taxa/prazo), decisão ou hipótese. Hipótese não vira fato sem fonte.
++Não registrar CPF, RG, endereços pessoais, senhas, orçamento privado ou lance máximo. Não copiar dados pessoais de documentos ou páginas. Dados públicos dos veículos não identificam o usuário.
++Não executar os scripts antigos sem revisar seus destinos: vários sobrescrevem os derivados existentes.
++
++## Conflitos e validade
++Hierarquia: lei > norma infralegal > edital > prática. Documento mais novo e específico prevalece dentro do mesmo nível e âmbito aplicável; não presumir que afaste norma superior.
++Preserve o registro anterior com “substituído por”, sem apagar, após aprovação quando houver alteração factual.
++Fatos voláteis: “revalidar em” a cada novo edital e antes de lance/pagamento; cotações em cada consulta.
++Normas: revalidar em seis meses (base desta sessão: 2027-05-08), ou antes se a vigência ainda for incerta.
++Fato vencido ou incerto exige reverificação antes de uso decisório. O título “edital vigente” indica o edital de referência local, não certificação de inexistência de erratas.
++Leiloeiro e plataforma mudam por edital. Não importar regras de editais anteriores.
++
++## Fechamento e compactação
++Use templates/fechamento_sessao.md ao concluir sessão relevante; registre decisões, lotes e pendências, e mostre o diff da memória.
++memoria/70_log_sessoes.md é append-only: acrescente de uma a três linhas por sessão.
++Ao ultrapassar 200 linhas, copie o log integral para memoria/arquivo/ com data, confira integridade e proponha resumo de até 20 linhas; preserve o original e solicite aprovação se mudar fatos.
++Índice até 60 linhas; cada arquivo ativo de memoria/ até 300 linhas. Divida por assunto antes de exceder.
++
++## Mapa
++- memoria/00_indice.md: roteador da memória.
++- memoria/10_projeto.md: objetivo, escopo e definições.
++- memoria/20_regras_edital_vigente.md: regras documentais do 003/2026.
++- memoria/30_base_legal.md: normas, alcance e estado de verificação.
++- memoria/40_decisoes.md: escolhas e histórico, sem presumir decisões de compra.
++- memoria/50_lotes.md e lotes/: 14 fichas e referências.
++- memoria/60_pendencias.md: OCR, documentos ausentes e dúvidas.
++- memoria/70_log_sessoes.md e memoria/arquivo/: sessões e arquivo.
++- fontes/md/: seis fontes paginadas e duas tabelas de recuperação.
++- auditoria/inventario.md: utilidade de cada arquivo original.
++- auditoria/conversao.md: contagens, amostras e limites.
++- auditoria/reorganizacao.diff: adições desta sessão à memória.
++- templates/: análise de lote e fechamento.
++- PDFs, CSVs, Markdown antigos, evidencias/ e tmp/analise/: acervo preservado; localização original mantida.
+--- /dev/null
++++ memoria/10_projeto.md
+@@ -0,0 +1,12 @@
++# Projeto
++
++Atualizado em: 2026-11-08. Origem das definições: conversa com o usuário / prompt anexado, OBJETIVO e PASSOS 3–4. Confiança alta sobre a instrução.
++
++Objetivo: apoiar análise de leilões de veículos oficiais de SP e permitir retomada entre chats por arquivos locais, com leitura mínima e fontes rastreáveis.
++Escopo atual: edital 003/2026, seis PDFs (48 páginas), 14 veículos já triados e evidências locais.
++RF: denominação do usuário para veículos da frota estadual vendidos pela SGGD/DMI.
++Comitente: SGGD/DMI (Estado de SP). Leiloeiro e plataforma variam por edital. Classificação: fato de contexto, origem conversa com o usuário; para este edital, conferir preâmbulo, p. 1.
++Preferências: português claro, objetivo, sem invenções; fontes com página/item; incertezas explícitas; preservação dos originais e privacidade.
++Fora do escopo desta organização: dar lances, realizar pagamentos, enviar mensagens, certificar funcionamento ou propriedade, emitir conclusão jurídica definitiva e armazenar lance máximo/dados pessoais.
++A memória antiga contém informação útil, mas extensa e com OCR defeituoso. Foi preservada como acervo, não como entrada padrão.
++Revalidar edital antes de qualquer decisão e a cada novo certame. A organização atual não equivale a atualização dos lances nem consulta de erratas.
+--- /dev/null
++++ memoria/20_regras_edital_vigente.md
+@@ -0,0 +1,27 @@
++# Edital de referência — 003/2026
++
++Atualizado: 2026-11-08. Classificação: fatos voláteis documentais. Fonte de todas as linhas: [Edital convertido](../fontes/md/Edital.md), item/página abaixo. Confiança media (OCR); item 10.7.d conferido visualmente.
++Revalidar em: cada novo edital e antes de lance, pagamento ou retirada. Erratas posteriores: não verificado nesta sessão.
++
++| Tema | Regra documental | Item | Página física |
++|---|---|---|---|
++| Identidade | SGGD/DMI; leiloeiro José Eduardo de Abreu Sodré Santoro; plataforma www.sodresantoro.com.br. | preâmbulo | 1 |
++| Sessão | 12/11/2026, 10h–16h, horário de Brasília; possibilidade de continuidade em dias úteis. | preâmbulo | 1–2 |
++| Categorias | 543 conservados com documentação e 57 sucatas sem documentação; 600 lotes declarados. | 1.1, alíneas c–d | 2 |
++| Estado e exclusão | Venda no estado e sem garantia; DMI pode excluir lotes até abertura. | 1.1.a, 1.3 | 2 |
++| Débitos | DMI responde por multas de infrações até a data do leilão; licenciamento atualizado conforme calendário. | 1.4–1.5 | 2 |
++| Custos do comprador | Transferência, retirada, carregamento, transporte, tributos e demais encargos descritos; redação menciona DPVAT e IPVA proporcional. Aplicabilidade atual de tributos não revalidada. | 1.6 | 2 |
++| Visita | 10 e 11/11/2026, 9h–12h e 14h–17h; sem agendamento; vedado ligar motores, desmontar ou manusear. | 1.8 | 2–3 |
++| Pagamento e comissão | À vista, 100% do lance mais 5%, em até 48 horas da convocação após fase recursal. | 2.2.1–2.2.2; 5.7 | 3, 7 |
++| Taxa | R$ 22,89 para reconhecimento de firma de veículos com documentação; não inclui todos os custos. | 2.2.3 | 3 |
++| Participação | Interessados que cumpram condições; cadastro prévio gratuito; impedimentos listados no item 3.4. | 3.1–3.4 | 3–4 |
++| Sucatas | Exigem atividade de comércio de peças usadas, credenciamento DETRAN-SP e requisitos de regularidade descritos. | 3.3 | 3–4 |
++| Proposta | Inicial até data/hora de abertura; lances no sistema. | 4.1 | 4 |
++| CRV | DMI entrega ao leiloeiro em até 5 dias úteis do recolhimento e correta prestação de contas; leiloeiro devolve preenchido em até 15 dias úteis do recebimento. | 6.3–6.4 | 7 |
++| Nota e assinatura | Nota de venda em até 5 dias após pagamentos; DMI providencia assinatura/firma; entrega ao arrematante compete ao leiloeiro. Prazo final global não definido nesses itens. | 6.4–6.7 | 7–8 |
++| Titular | Documentos em nome do vencedor; vedada substituição. | 6.8 | 8 |
++| Retirada | Condicionada à prestação de contas e nota; caminhões/vans: 23–24/11; carros/caminhonetes/motos: 25/11–18/12, dias úteis; agendamento pela plataforma. | 7.1–7.2.4 | 8 |
++| Atraso | Retirada menciona 20 dias úteis; conciliar marco com janelas; armazenagem/remoção e possível novo leilão. | 7.2–7.5 | 8–9 |
++| Sanções | 20% do lance por não pagamento; 0,1% ao dia por atraso de retirada; demais sanções nos itens 8.1–8.6. Base/limite diário a esclarecer. | 8.1–8.6 | 9 |
++| Esclarecimentos | Até 3 dias úteis antes da abertura; não suspendem automaticamente o certame. Não converter em data absoluta sem conferir calendário e erratas. | 9.1–9.4 | 9–10 |
++| Anexos | Anexo IV cita expressamente CONTRAN 1.025/2026; isso não resolve por si só o alcance à frota oficial. | 10.7.d | 10 |
+--- /dev/null
++++ memoria/30_base_legal.md
+@@ -0,0 +1,16 @@
++# Base legal documental
++
++Atualizado: 2026-11-08. Classificação: fatos estáveis documentais; efeitos atuais dependem de verificação oficial. “Verificado em” abaixo é conferência do arquivo local, não pesquisa de consolidação normativa. Revalidar em: 2027-05-08, ou antes de uso se incerta.
++
++| Norma | Dispositivo | Resumo | Vigência | Fonte | Verificado em | Confiança |
++|---|---|---|---|---|---|---|
++| SGGD 28/2024 | arts. 1–2 | Institui e organiza comissão executiva para alienação da frota oficial. | incerta (alterações posteriores não consultadas) | fontes/md/Resolucao_SGGD.md, p. 1 | 2026-11-08 | media, OCR |
++| SGGD 28/2024 | art. 3 | Delega assinatura do CRV/ATPV à presidência da comissão. | incerta | mesma fonte, p. 2; imagem conferida | 2026-11-08 | alta documental |
++| SGGD 28/2024 | art. 5 | Entrada em vigor na publicação; revoga SGP 09/2015. | incerta quanto a alterações posteriores | mesma fonte, p. 2 | 2026-11-08 | alta documental |
++| CONTRAN 1.025/2026 | art. 1 | Trata de remoção e leilão de veículos recolhidos. | incerta quanto à situação atual e alcance neste certame | fontes/md/Resolucao_Contran.md, p. 1 | 2026-11-08 | alta documental |
++| CONTRAN 1.025/2026 | arts. 45–46 | Revoga 623/2016 e prevê vigência na publicação. | incerta quanto a alterações posteriores | mesma fonte, p. 3; imagem conferida | 2026-11-08 | alta documental |
++| CONTRAN 623/2016 | revogação pelo art. 45 da 1.025/2026 | Revogação expressa confirmada no PDF fornecido. | revogada conforme documento local; efeitos atuais não revalidados | mesma fonte, p. 3 | 2026-11-08 | alta documental |
++| Lei 14.133/2021 | remissões do edital | Referência licitatória do certame. | incerta nesta revisão | fontes/md/Edital.md, p. 1 e itens 8–9; texto legal integral ausente | não verificado | baixa |
++| Decreto SP 68.422/2024 | preâmbulo e item 5.7 | Referência estadual ao procedimento eletrônico. | incerta nesta revisão | fontes/md/Edital.md, pp. 1, 7; texto legal integral ausente | não verificado | baixa |
++
++Origem inicial das duas questões CONTRAN: conversa com o usuário, PASSO 3. A citação como anexo e a revogação foram confirmadas localmente; a aplicação à alienação de veículos oficiais permanece não verificada. Não importar automaticamente prazos dessa resolução para substituir o edital.
+--- /dev/null
++++ memoria/40_decisoes.md
+@@ -0,0 +1,10 @@
++# Decisões
++
++| Data | Decisão | Motivo / fonte e local | Status | Confiança |
++|---|---|---|---|---|
++| 2026-11-08 | Reorganizar por novas camadas, mantendo todos os originais nos mesmos locais. | Instrução do usuário, prompt anexado, REGRAS DE EXECUÇÃO. | Executada | alta |
++| 2026-11-08 | AGENTS.md passa a ser a entrada; memória antiga continua acessível como acervo. | Objetivo de retomada com pouco contexto, PASSOS 3–4. | Executada | alta |
++| 2026-11-08 | Manter ranking antigo como triagem histórica de baixa confiança. | comparacao_preliminar_carros.md, “Ranking para priorizar vistoria”. | Importado; não é decisão de compra | alta sobre origem, baixa sobre condição |
++| 2026-11-08 | Preservar correção histórica do link do lote 522 sem alterar CSV. | comparacao_preliminar_carros.md, “Correção do lote 522”; evidencias/carros_interesse_original.csv. | Registro histórico, página oficial não revalidada | media |
++
++Decisão de arrematar qualquer lote: não verificado. Não armazenar teto de lance.
+--- /dev/null
++++ lotes/003_2026_0123.md
+@@ -0,0 +1,29 @@
++# Lote 0123 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0123”, linha 62; carros_conferencia.csv, registro Lote 0123.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo A de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/123/galeria.png), [origens](../evidencias/123/fontes.json), [descrição](../evidencias/123/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 3; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0123 — Renault Duster Zen 1.6 — 21/22 — GAJ1C75
++
++**Grupo A. Carroceria e interior relativamente completos nas vistas disponíveis.** Valor anotado no CSV: R$ 17.500,00 (Lance atual; sem atualização). Mínimo do Anexo I: R$ 12,700.00 (página 3 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: faróis, lanternas, para-choques e retrovisores aparecem instalados; marcas e resíduos nas laterais. O capô aparece ligeiramente elevado nas vistas dianteiras; isso não comprova deformação.
++- **Observado, cofre:** F5: coletor, caixa de ar, duto principal e componente compatível com bateria aparecem instalados. Não há detalhe suficiente para certificar conexões, vazamentos ou fixações.
++- **Observado, interior:** F6: volante, quadro de instrumentos, console central e alavanca aparecem presentes; o enquadramento não mostra integralmente bancos, piso ou traseira.
++- **Pendente/CSV:** “Sem estepe” e “furo no assoalho” são relatos do CSV, sem comprovação nas seis fotos: não há vista do alojamento do estepe nem da parte inferior do piso.
++- **Foco da vistoria:** Priorizar visualização do local exato do suposto furo, bordas, proximidade de ancoragens de bancos/cintos e corrosão, apenas se acessível sem manuseio. Solicitar ao responsável fotos adicionais do piso e do alojamento do estepe. O furo permanece uma pendência capaz de mudar totalmente a posição no ranking.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2813951) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2813951/)
++
++![Seis fotos reduzidas do lote 123, numeradas](../evidencias/123/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0522.md
+@@ -0,0 +1,29 @@
++# Lote 0522 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0522”, linha 77; carros_conferencia.csv, registro Lote 0522.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo A de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/522/galeria.png), [origens](../evidencias/522/fontes.json), [descrição](../evidencias/522/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 11; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0522 — Renault Duster Zen 1.6 — 20/21 — GBP5D07
++
++**Grupo A. Alternativa visual aos primeiros colocados, com acabamentos a conferir.** Valor anotado no CSV: R$ 13.500,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 13,500.00 (página 11 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: conjuntos ópticos e para-choques aparecem montados; há resíduos extensos de identificação nas laterais e tampa traseira e marcas no para-choque dianteiro.
++- **Observado, cofre:** F5: coletor, caixa de ar e duto principal aparecem presentes; há bateria visível na fotografia. Folhas na região da base do para-brisa. Isso não informa o estado interno do motor.
++- **Observado, interior:** F6: há uma abertura retangular no painel, à esquerda da região central inferior; console/controles centrais parecem incompletos. Não é possível inventariar precisamente as peças nem concluir sobre airbags.
++- **Pendente/CSV:** “Banco rasgado” não fica demonstrado pelo recorte disponível. “Painel aberto” é parcialmente sustentado pela abertura visível, sem dimensionar toda a desmontagem.
++- **Foco da vistoria:** Conferir placa GBP5D07 e lote 0522 antes de qualquer decisão. Pedir fotos frontais do painel e de todos os bancos. Inventariar molduras, comandos e conectores visíveis, verificar sinais de água e avaliar carroceria sob resíduos. Link corrigido e identidade documental conferida.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814317) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814317/)
++
++![Seis fotos reduzidas do lote 522, numeradas](../evidencias/522/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0463.md
+@@ -0,0 +1,29 @@
++# Lote 0463 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0463”, linha 92; carros_conferencia.csv, registro Lote 0463.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo A de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/463/galeria.png), [origens](../evidencias/463/fontes.json), [descrição](../evidencias/463/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 10; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0463 — Renault Duster Zen 1.6 — 20/21 — FPV3D79
++
++**Grupo A. Conjunto visual razoavelmente completo; pendência de piso e acabamento do cofre.** Valor anotado no CSV: R$ 18.100,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 18,100.00 (página 10 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: ópticas, para-choques e retrovisores aparecem instalados. Há resíduos extensos nas portas e traseira e capô parcialmente elevado nas fotos; não é prova de colisão.
++- **Observado, cofre:** F5: coletor e duto superior aparecem presentes. A caixa de ar mostra região aberta/incompleta, que exige foto melhor. Na parte inferior direita há componente retangular com aspecto de bateria; a imagem não sustenta afirmar ausência na data da foto.
++- **Observado, interior:** F6: volante, instrumentos, console central e alavanca aparecem presentes. Não há visão suficiente do piso nem dos bancos completos.
++- **Pendente/CSV:** Furo no assoalho não é visível. “Sem bateria” do CSV diverge da aparência da foto; além disso, o edital prevê remoção de baterias para visitação. A presença em foto antiga não garante entrega com bateria.
++- **Foco da vistoria:** Pedir foto detalhada da caixa de ar e do ponto referido como furo no piso; conferir se é passagem de equipamento, dano, corrosão ou outra abertura, sem antecipar a causa. Verificar visualmente o painel e assoalho acessível. Não tratar como candidato de baixo risco apenas pela aparência externa.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814265) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814265/)
++
++![Seis fotos reduzidas do lote 463, numeradas](../evidencias/463/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0468.md
+@@ -0,0 +1,29 @@
++# Lote 0468 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0468”, linha 107; carros_conferencia.csv, registro Lote 0468.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/468/galeria.png), [origens](../evidencias/468/fontes.json), [descrição](../evidencias/468/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 10; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0468 — Renault Duster Zen 1.6 — 20/21 — FNE0H17
++
++**Grupo B. Danos em retrovisores e aberturas de painel aumentam a lista de reposição.** Valor anotado no CSV: R$ 12.900,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 12,900.00 (página 10 do PDF local).
++
++- **Observado, carroceria/impactos:** F1 e F3: retrovisores aparecem danificados/incompletos, com partes expostas. F1–F4: painéis externos e ópticas principais aparecem presentes, com marcas/resíduos; capô parcialmente elevado.
++- **Observado, cofre:** F5: coletor, tubulação de admissão e componente compatível com bateria são visíveis. Algumas caixas/áreas do cofre parecem abertas; não é possível definir inventário nem atribuir falha de motor.
++- **Observado, interior:** F6: há abertura retangular no painel e componentes/fiação aparentes nessa região. O volante e a alavanca aparecem presentes.
++- **Pendente/CSV:** Rasgo no banco não é confirmável neste recorte. “Painel com furos” deve ser discriminado entre abertura de acabamento/equipamento e perfuração real; a foto não resolve essa diferença em todos os pontos.
++- **Foco da vistoria:** Orçar os conjuntos completos dos retrovisores e acabamentos apenas após inventário presencial permitido. Pedir fotos nítidas de bancos e painel; conferir presença de comandos e conectores sem tocar. Não concluir que airbags estão ausentes ou acionados pela abertura do painel.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814270) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814270/)
++
++![Seis fotos reduzidas do lote 468, numeradas](../evidencias/468/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0462.md
+@@ -0,0 +1,29 @@
++# Lote 0462 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0462”, linha 122; carros_conferencia.csv, registro Lote 0462.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/462/galeria.png), [origens](../evidencias/462/fontes.json), [descrição](../evidencias/462/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 10; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0462 — Renault Duster Zen 1.6 — 20/21 — FVH7J25
++
++**Grupo B. Exterior relativamente completo, com desmontagem evidente na região do volante.** Valor anotado no CSV: R$ 14.000,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 14,000.00 (página 10 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: carroceria, conjuntos ópticos e para-choques aparecem montados; marcas/resíduos nas laterais. A foto não permite concluir ausência de para-lama metálico ou de revestimento da caixa de roda.
++- **Observado, cofre:** F5: coletor e duto superior são visíveis; caixa de ar com região aberta e peça/tampa deslocada na área superior direita. Componente compatível com bateria aparece na parte inferior.
++- **Observado, interior:** F6: acabamento/parte central do volante está deslocado e com região interna aparente. Não é possível concluir se o módulo de airbag foi removido ou acionado.
++- **Pendente/CSV:** Rasgo de banco, falta de bateria e “sem paralama” do CSV precisam de confirmação específica. Distinguir para-lama externo de parabarro interno.
++- **Foco da vistoria:** Priorizar foto nítida do volante e inventário do conjunto de segurança por profissional, dentro do acesso permitido. Pedir fotos da caixa de roda e bancos. A aparência externa favorável não resolve a dúvida sobre o volante.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814264) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814264/)
++
++![Seis fotos reduzidas do lote 462, numeradas](../evidencias/462/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0410.md
+@@ -0,0 +1,29 @@
++# Lote 0410 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0410”, linha 137; carros_conferencia.csv, registro Lote 0410.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/410/galeria.png), [origens](../evidencias/410/fontes.json), [descrição](../evidencias/410/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 9; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0410 — Renault Duster Zen 1.6 — 20/21 — EUL2I52
++
++**Grupo B. Admissão aparentemente desconectada e alegação de impacto exigem cautela.** Valor anotado no CSV: R$ 13.800,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 13,800.00 (página 9 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: resíduos generalizados e marcas na carroceria; frente com capô parcialmente elevado. Não há elementos suficientes para qualificar uma colisão como “leve”.
++- **Observado, cofre:** F5: há extremidade de tubulação aberta/desconectada na região dianteira esquerda da imagem. Coletor e parte da caixa de ar estão presentes; folhas/sujeira se acumulam na base do para-brisa. Estado interno e período de exposição são desconhecidos.
++- **Observado, interior:** F6: volante, quadro de instrumentos e alavanca aparecem presentes, mas sombras impedem avaliar detalhes do console e do banco.
++- **Pendente/CSV:** Ausência de estepe não é comprovada. A gravidade de “batida leve na frente” não pode ser validada. Tubulação fora de conexão é uma observação visual; contaminação interna é apenas possibilidade a investigar.
++- **Foco da vistoria:** Pedir fotos próximas dos bocais e caminho da admissão; não tentar ligar o motor. Observar suportes dianteiros, fixações de faróis, folgas de capô e sinais de reparo acessíveis. Se não houver esclarecimento sobre a admissão aberta, manter reserva elevada para investigação posterior.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814215) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814215/)
++
++![Seis fotos reduzidas do lote 410, numeradas](../evidencias/410/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0194.md
+@@ -0,0 +1,29 @@
++# Lote 0194 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0194”, linha 152; carros_conferencia.csv, registro Lote 0194.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/194/galeria.png), [origens](../evidencias/194/fontes.json), [descrição](../evidencias/194/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 4; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0194 — Renault Duster 2.0 D 4x4 — 16/16 — FCN4414
++
++**Grupo B. Preço anotado baixo acompanha interior desmontado e complexidade adicional do 4x4.** Valor anotado no CSV: R$ 8.900,00 (Lance atual; sem atualização). Mínimo do Anexo I: R$ 8,900.00 (página 4 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: adesivação antiga, resíduos e desgaste aparente; ópticas e para-choques aparecem presentes. As fotos não demonstram dano estrutural.
++- **Observado, cofre:** F5: coletor, caixa de ar e tubulação são visíveis, com sujeira intensa. Não é possível identificar seguramente todas as conexões nem validar bateria, periféricos ou estanqueidade.
++- **Observado, interior:** F6: conjunto central do painel está aberto/deslocado, com componentes e fios aparentes na parte superior; volante e alavanca presentes.
++- **Pendente/CSV:** O rasgo no banco anotado no CSV não pode ser delimitado pelo enquadramento. Não há demonstração do funcionamento da tração, caixa, embreagem ou diferenciais.
++- **Foco da vistoria:** Inventariar visualmente painel e acabamentos e procurar sinais de instalação/remoção de equipamentos. Solicitar histórico e fotos inferiores existentes de cardã, diferencial traseiro e transmissão. Testes de tração e de rodagem não são possíveis na visita prevista pelo edital.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814020) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814020/)
++
++![Seis fotos reduzidas do lote 194, numeradas](../evidencias/194/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0294.md
+@@ -0,0 +1,29 @@
++# Lote 0294 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0294”, linha 167; carros_conferencia.csv, registro Lote 0294.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/294/galeria.png), [origens](../evidencias/294/fontes.json), [descrição](../evidencias/294/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 7; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0294 — Citroën Aircross M Feel — 16/17 — FCK1215
++
++**Grupo B. Frente com folgas e outro modelo exigem orçamento próprio.** Valor anotado no CSV: R$ 14.700,00 (Lance atual; sem atualização). Mínimo do Anexo I: R$ 14,500.00 (página 7 do PDF local).
++
++- **Observado, carroceria/impactos:** F1 e F3: folga/desalinhamento no encontro do para-choque dianteiro com a carroceria; resíduos e marcas externas. Na traseira, o suporte externo está sem roda sobressalente visível (F2/F4). Isso não prova ausência de qualquer estepe em outro local.
++- **Observado, cofre:** F5: cobertura do motor e dutos aparecem presentes, com sujeira; a foto não permite comprovar bateria ausente nem problema de ignição.
++- **Observado, interior:** F6: volante, instrumentos e painel central aparecem presentes; bancos e piso não estão integralmente enquadrados.
++- **Pendente/CSV:** “Provável problema com vela” não é inferível pela foto e permanece alegação sem evidência técnica. Folga do para-choque pode decorrer de fixações, desmontagem ou impacto; a causa não foi comprovada.
++- **Foco da vistoria:** Observar fixações, faróis, suportes e folgas dianteiras; pedir histórico de intervenção na ignição. Orçar peças específicas do Aircross separadamente dos Duster. Não atribuir falha de vela nem classificar colisão sem inspeção apropriada.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814116) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814116/)
++
++![Seis fotos reduzidas do lote 294, numeradas](../evidencias/294/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0556.md
+@@ -0,0 +1,29 @@
++# Lote 0556 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0556”, linha 182; carros_conferencia.csv, registro Lote 0556.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo B de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/556/galeria.png), [origens](../evidencias/556/fontes.json), [descrição](../evidencias/556/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 11; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0556 — Renault Duster 2.0 D 4x4 — 16/16 — FYL0042
++
++**Grupo B. Interior aberto e maior complexidade do 4x4; acabamento aparente não indica conservação mecânica.** Valor anotado no CSV: R$ 15.100,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 15,100.00 (página 11 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: adesivação e resíduos extensos; para-choques e ópticas presentes. A galeria não permite confirmar de modo seguro a falta de retrovisor indicada no CSV.
++- **Observado, cofre:** F5: coletor e caixa de ar aparecem instalados, com sujeira. A parte inferior e o escapamento não estão fotografados.
++- **Observado, interior:** F6: painel central aberto/desmontado e fiação aparente; revestimento em tom caramelo visível em parte do interior. Material do revestimento e estado completo dos bancos não são verificáveis.
++- **Pendente/CSV:** Escapamento enferrujado é relato do CSV, sem imagem correspondente. Não há teste da tração 4x4 nem comprovação de saúde mecânica.
++- **Foco da vistoria:** Conferir painel, retrovisores e bancos e pedir fotografias inferiores já disponíveis. Considerar orçamento específico de transmissão 4x4 e escapamento após verificação permitida. Não premiar o veículo apenas pelo revestimento aparente.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814346) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814346/)
++
++![Seis fotos reduzidas do lote 556, numeradas](../evidencias/556/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0324.md
+@@ -0,0 +1,29 @@
++# Lote 0324 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0324”, linha 197; carros_conferencia.csv, registro Lote 0324.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo C de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/324/galeria.png), [origens](../evidencias/324/fontes.json), [descrição](../evidencias/324/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 7; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0324 — Renault Duster Zen 1.6 — 21/22 — EMN8I06
++
++**Grupo C. Relato de desmontagem não esclarecido pelas vistas disponíveis.** Valor anotado no CSV: R$ 18.100,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 18,100.00 (página 7 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: resíduos nas laterais/tampa traseira; ópticas e para-choques presentes. Capô parcialmente elevado. Não há foto com porta aberta para confirmar desmontagem interna.
++- **Observado, cofre:** F5: coletor e caixa de ar presentes; tubulações, conexões e região frontal precisam de fotos mais próximas. Aparência suja não comprova dano mecânico.
++- **Observado, interior:** F6: volante, instrumentos e console central aparecem presentes, sem visão das faces internas de todas as portas.
++- **Pendente/CSV:** “Motor partes desmontadas” e “porta desmontada” do CSV não têm extensão demonstrável nesta galeria; não é possível rejeitar nem validar integralmente o relato.
++- **Foco da vistoria:** Pedir inventário escrito das peças removidas e imagens do cofre e da porta mencionada. Manter prioridade reduzida enquanto a desmontagem alegada permanecer sem esclarecimento, especialmente pelo valor anotado de R$ 18.100.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814141) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814141/)
++
++![Seis fotos reduzidas do lote 324, numeradas](../evidencias/324/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0305.md
+@@ -0,0 +1,29 @@
++# Lote 0305 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0305”, linha 212; carros_conferencia.csv, registro Lote 0305.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo C de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/305/galeria.png), [origens](../evidencias/305/fontes.json), [descrição](../evidencias/305/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 7; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0305 — Renault Duster Zen 1.6 — 21/22 — FWI8C71
++
++**Grupo C. Avaria dianteira visível; alcance do impacto desconhecido.** Valor anotado no CSV: R$ 11.400,00 (Lance atual; sem atualização). Mínimo do Anexo I: R$ 11,400.00 (página 7 do PDF local).
++
++- **Observado, carroceria/impactos:** F1/F3: para-choque dianteiro separado/desalinhado junto ao farol e para-lama; capô com folgas. Retrovisor aparece incompleto em vista lateral. F2/F4: resíduos na carroceria.
++- **Observado, cofre:** F5: coletor, caixa de ar, tubulação principal e bateria aparecem presentes. Essa vista superior não exclui dano a radiador, suportes ou componentes inferiores.
++- **Observado, interior:** F6: volante e console central presentes; há marcas nos bancos, sem resolução para classificar todo o desgaste.
++- **Pendente/CSV:** A anotação de batida dianteira é compatível com as avarias visíveis; intensidade, direção e dano estrutural permanecem desconhecidos.
++- **Foco da vistoria:** Priorizar comparação das folgas entre lados e observação de suportes, travessas acessíveis e fixações dos faróis. Pedir fotos próximas da região danificada e documentação de eventual reparo. Sem comprovação adicional, não assumir reparação limitada ao para-choque.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814125) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814125/)
++
++![Seis fotos reduzidas do lote 305, numeradas](../evidencias/305/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0388.md
+@@ -0,0 +1,29 @@
++# Lote 0388 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0388”, linha 227; carros_conferencia.csv, registro Lote 0388.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo C de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/388/galeria.png), [origens](../evidencias/388/fontes.json), [descrição](../evidencias/388/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 8; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0388 — Renault Duster Zen 1.6 — 20/21 — FUZ6B24
++
++**Grupo C. Dano dianteiro e desmontagem elétrica aparente elevam as pendências.** Valor anotado no CSV: R$ 17.200,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 17,200.00 (página 8 do PDF local).
++
++- **Observado, carroceria/impactos:** F1: para-choque separado/desalinhado junto ao farol de um lado; F1–F4: resíduos intensos nas superfícies.
++- **Observado, cofre:** F5: folhas acumuladas e caixa/conjunto de admissão deslocado/aberto à direita da imagem; coletor presente. Não é possível avaliar ingresso de sujeira, corrosão interna ou causa da desmontagem.
++- **Observado, interior:** F6: fiação exposta junto à parte inferior do painel/console; acabamento incompleto nessa região.
++- **Pendente/CSV:** A falta de acabamento interno traseiro anotada no CSV não está mostrada, pois não há foto da área de carga. A extensão do impacto é desconhecida.
++- **Foco da vistoria:** Pedir fotos da admissão, console e área de carga. Avaliar visualmente suportes dianteiros e inventariar componentes removidos. A soma de frente avariada e desmontagens torna menos atraente avançar sem esclarecimentos.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814194) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814194/)
++
++![Seis fotos reduzidas do lote 388, numeradas](../evidencias/388/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0224.md
+@@ -0,0 +1,29 @@
++# Lote 0224 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0224”, linha 242; carros_conferencia.csv, registro Lote 0224.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo C de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/224/galeria.png), [origens](../evidencias/224/fontes.json), [descrição](../evidencias/224/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 5; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0224 — Renault Duster EXP 1.6 SCe — 19/20 — FAQ1283
++
++**Grupo C. Alegação de falta de embreagem exige esclarecimento antes de considerar compra.** Valor anotado no CSV: R$ 14.800,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 14,800.00 (página 5 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: extensos resíduos/descascamentos superficiais aparentes; conjuntos ópticos e para-choques presentes. Não se consegue separar completamente dano de pintura e remoção de adesivos.
++- **Observado, cofre:** F5: coletor de admissão e caixa de ar estão visíveis. Isso impede interpretar “sem admissão” como ausência de todo o coletor; conexões/trechos podem estar faltando ou desmontados, sem inventário seguro.
++- **Observado, interior:** F6: volante, instrumentos e painel central aparecem presentes; banco do passageiro tem área clara irregular que pode ser dano de revestimento, sem caracterização segura nesta resolução.
++- **Pendente/CSV:** Ausência de embreagem não é verificável pela foto superior do cofre. “Destruído” é avaliação do CSV e não um diagnóstico desta análise.
++- **Foco da vistoria:** Solicitar confirmação escrita do que foi retirado da transmissão e admissão, com fotos existentes. Não presumir que bastará instalar um kit de embreagem. Enquanto não houver esclarecimento, manter entre as últimas opções.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2814049) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2814049/)
++
++![Seis fotos reduzidas do lote 224, numeradas](../evidencias/224/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ lotes/003_2026_0097.md
+@@ -0,0 +1,29 @@
++# Lote 0097 — edital 003/2026
++
++Atualizado em: 2026-11-08. Classificação: hipótese/análise histórica e fatos voláteis do catálogo.
++Fonte: comparacao_preliminar_carros.md, seção “Lote 0097”, linha 257; carros_conferencia.csv, registro Lote 0097.
++Confiança: baixa para priorização/estado mecânico; conferência documental anterior não refeita integralmente.
++Revalidar em: próxima consulta ao catálogo, antes da visita e antes de qualquer lance.
++Veredito: grupo C de prioridade de vistoria; nenhuma aprovação de compra.
++Custo total: não verificado. Valores abaixo são registros históricos, não cotação atual nem teto de lance.
++Evidências: [galeria](../evidencias/97/galeria.png), [origens](../evidencias/97/fontes.json), [descrição](../evidencias/97/descricao.json).
++Anexo I: [fonte](../fontes/md/Carros_lista.md), p. 2; conferir identidade no original.
++
++## Análise anterior preservada
++
++### Lote 0097 — Renault Duster 1.6 E 4x2 — 15/16 — FVE3E24
++
++**Grupo C. Conservação visual ruim e diversos acabamentos incompletos.** Valor anotado no CSV: R$ 9.800,00 (Lance inicial; sem atualização). Mínimo do Anexo I: R$ 9,800.00 (página 2 do PDF local).
++
++- **Observado, carroceria/impactos:** F1–F4: sujeira/manchas intensas, folgas no para-choque dianteiro junto ao farol (F3) e tampa traseira com acabamento na região da placa incompleto/danificado.
++- **Observado, cofre:** F5: coletor e caixa de ar aparecem presentes; sujeira intensa. Não há base para avaliar funcionamento ou integridade interna.
++- **Observado, interior:** F6: console central com abertura e peças/guarnições faltantes; parte inferior do painel incompleta; banco visível com desgaste e região de revestimento danificada.
++- **Pendente/CSV:** “Destruída” é o termo do CSV; as fotos comprovam desgaste e desmontagem aparente, sem permitir concluir perda estrutural ou mecânica total.
++- **Foco da vistoria:** Inventariar acabamento e painel, examinar áreas manchadas e folgas externas acessíveis e pedir histórico de armazenamento. Prioridade final para quem busca reduzir trabalho de recuperação; preço baixo isoladamente não compensa incerteza não quantificada.
++
++[Descrição e galeria consultadas](https://www.achalote.com/lote/sodresantoro/2813929) · [Endereço oficial referenciado](https://leilao.sodresantoro.com.br/leilao/29109/lote/2813929/)
++
++![Seis fotos reduzidas do lote 97, numeradas](../evidencias/97/galeria.png)
++
++## Próxima verificação
++Confirmar identidade, documentação, condição observável e orçamento de reparos; atualizar apenas com fonte e data. Relatos do CSV não são diagnósticos. Não presumir testes de motor/manuseio permitidos.
+--- /dev/null
++++ memoria/50_lotes.md
+@@ -0,0 +1,20 @@
++# Lotes analisados
++
++Fonte: comparacao_preliminar_carros.md, seções por lote; data 2026-11-08. Confiança baixa. Grupos A/B/C são prioridade de vistoria, não recomendação de compra. Revalidar na próxima consulta e antes de lance.
++
++| Edital | Lote | Veredito | Custo total | Data |
++|---|---|---|---|---|
++| 003/2026 | [0123](../lotes/003_2026_0123.md) | Grupo A; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0522](../lotes/003_2026_0522.md) | Grupo A; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0463](../lotes/003_2026_0463.md) | Grupo A; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0468](../lotes/003_2026_0468.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0462](../lotes/003_2026_0462.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0410](../lotes/003_2026_0410.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0194](../lotes/003_2026_0194.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0294](../lotes/003_2026_0294.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0556](../lotes/003_2026_0556.md) | Grupo B; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0324](../lotes/003_2026_0324.md) | Grupo C; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0305](../lotes/003_2026_0305.md) | Grupo C; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0388](../lotes/003_2026_0388.md) | Grupo C; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0224](../lotes/003_2026_0224.md) | Grupo C; triagem histórica | não verificado | 2026-11-08 |
++| 003/2026 | [0097](../lotes/003_2026_0097.md) | Grupo C; triagem histórica | não verificado | 2026-11-08 |
+--- /dev/null
++++ memoria/60_pendencias.md
+@@ -0,0 +1,22 @@
++# Pendências
++
++Atualizado: 2026-11-08. Itens abaixo são pendências/hipóteses, não fatos confirmados; confiança baixa quando não indicado. Revalidar antes de uso decisório.
++
++| ID | Estado | Questão / próxima ação | Fonte e local |
++|---|---|---|---|
++| P01 | aberta | Aplicabilidade da CONTRAN 1.025/2026 à alienação de frota oficial: obter esclarecimento formal e verificar fonte oficial vigente. | conversa com o usuário; CONTRAN art. 1, p. 1; edital 10.7.d, p. 10 |
++| P02 | confirmada localmente | Edital cita CONTRAN 1.025/2026 como Anexo IV. Conferência visual desta sessão; confiança alta documental. | Edital.pdf, p. 10, 10.7.d |
++| P03 | confirmada localmente | Art. 45 revoga CONTRAN 623/2016. Confiança alta documental; vigência atual não pesquisada. | Resolucao_Contran.pdf, p. 3 |
++| P04 | aberta | Obter Anexo II: 57 sucatas declaradas, relação individual ausente. | Edital 1.1.d, p. 2; inventário |
++| P05 | aberta | OCR integral não certificado: campos unidos, ausentes e rodapés corrompidos. Revisar tabelas antes de qualquer uso de identificação/valor. | auditoria/conversao.md; fontes/md/*_tabela.md |
++| P06 | aberta | 543 linhas e 600 posições não comprovam números de lote únicos nem correspondência completa. Não inferir lote pela posição. | tmp/analise/lotes_rows.json; memória antiga, seções 9–10 |
++| P07 | aberta | Conferência visual integral de artigos, subitens e 1.143 linhas tabulares ainda não realizada. Amostragem não certifica integralidade. | auditoria/conversao.md |
++| P08 | aberta | Atualizar lances, exclusões, erratas e calendário antes de agir. Consulta oficial atual não realizada nesta organização. | edital preâmbulo e 1.3; carros_interesse.csv |
++| P09 | aberta | Conciliar 20 dias úteis de retirada com janelas por categoria; confirmar base/limite da multa diária. | edital 7.2, p. 8 e 8.1.c, p. 9 |
++| P10 | aberta | Confirmar prazo final de CRV/ATPV-e e custos/solução em impedimento de transferência. | edital 6.3–6.7, pp. 7–8 |
++| P11 | aberta | Verificar identidade física, débitos, motor, restrições e reparos dos 14 veículos; obter fotografias melhores. | lotes/; comparacao_preliminar_carros.md |
++| P12 | aberta | Relatos de piso furado nos lotes 123 e 463 não comprovados; podem alterar triagem. | seções correspondentes da comparação anterior |
++| P13 | aberta | Comprovar publicação completa e prazos por fontes oficiais, sem importar como nova verificação a pesquisa citada na memória antiga. | memória antiga, seção 6 |
++| P14 | aberta | Definir quais veículos seguem para vistoria, sem registrar orçamento privado ou teto de lance. | decisão do usuário ainda não verificada |
++
++Privacidade: a nova transcrição omite o CPF parcialmente mascarado encontrado no preâmbulo; originais preservados. Menções genéricas a documentos exigidos não contêm dados do usuário.
+--- /dev/null
++++ templates/analise_lote.md
+@@ -0,0 +1,14 @@
++# Lote [número] — edital [número]
++
++Data: [AAAA-MM-DD]; classificação: [fato volátil / hipótese]; confiança: [alta/media/baixa]; revalidar em: [marco].
++Fonte e local: [arquivo/URL, página, item ou linha].
++Identidade: [marca/modelo, ano, placa/chassi públicos; não verificado se ausente].
++Categoria documental: [não verificado].
++Evidências observadas: [fonte, foto/página e limite].
++Relatos não comprovados: [separar de observações].
++Documentação, débitos e motor: [não verificado].
++Custos públicos e estimativas: [valor, fonte, data e premissa]; custo total: [não verificado].
++Não gravar lance máximo, dados pessoais ou orçamento privado.
++Veredito: [condicional, motivo e confiança]; não transformar hipótese em diagnóstico.
++Pendências e próxima ação: [ação e fonte necessária].
++Decisão do usuário: [não verificado].
+--- /dev/null
++++ templates/fechamento_sessao.md
+@@ -0,0 +1,10 @@
++# Fechamento — [data]
++
++- Escopo e fontes/local consultados: [arquivos e itens/páginas].
++- Fatos novos: [classe, fonte/local, data, confiança, revalidar em].
++- Decisões: [decisão, motivo, status; sem dados privados].
++- Lotes: [fichas atualizadas ou nenhum].
++- Pendências: [abertas/resolvidas e evidência].
++- Próxima ação: [uma ação concreta].
++- Diff: [mostrar adições/alterações da memória; alteração de fato existente requer aprovação prévia].
++- Log: [acrescentar 1–3 linhas em memoria/70_log_sessoes.md].
+--- /dev/null
++++ memoria/70_log_sessoes.md
+@@ -0,0 +1,5 @@
++# Log de sessões — append-only
++
++2026-11-08 — Reorganização aditiva: 206 arquivos originais inventariados, seis PDFs (48 páginas), oito derivados em fontes/md/ e 14 fichas históricas; originais preservados.
++2026-11-08 — Conferidos localmente edital 10.7.d e CONTRAN art. 45; aplicação à frota, OCR integral e atualização oficial permanecem pendentes. Diff: auditoria/reorganizacao.diff.
++2026-11-08 — Próxima ação: resolver pendências documentais prioritárias e revisar o OCR dos lotes selecionados antes de decisão.
+--- /dev/null
++++ memoria/00_indice.md
+@@ -0,0 +1,41 @@
++# Índice de memória
++
++Entrada única: ../AGENTS.md. Atualização: 2026-11-08. Não carregar todo o acervo.
++
++- [10_projeto.md](10_projeto.md): Objetivo, RF, escopo e preferências; ler ao retomar o projeto; atualizado 2026-11-08.
++- [20_regras_edital_vigente.md](20_regras_edital_vigente.md): Regras do 003/2026 com página/item; ler para prazos e custos; atualizado 2026-11-08.
++- [30_base_legal.md](30_base_legal.md): Normas e vigência incerta; ler para questões normativas; atualizado 2026-11-08.
++- [40_decisoes.md](40_decisoes.md): Decisões e histórico; ler antes de mudar rumo; atualizado 2026-11-08.
++- [50_lotes.md](50_lotes.md): Índice das 14 fichas; ler para escolher veículo; atualizado 2026-11-08.
++- [60_pendencias.md](60_pendencias.md): Incertezas e verificações pendentes; ler antes de decidir; atualizado 2026-11-08.
++- [70_log_sessoes.md](70_log_sessoes.md): Últimas sessões; ler para retomada; atualizado 2026-11-08.
++- [003_2026_0097.md](../lotes/003_2026_0097.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0123.md](../lotes/003_2026_0123.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0194.md](../lotes/003_2026_0194.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0224.md](../lotes/003_2026_0224.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0294.md](../lotes/003_2026_0294.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0305.md](../lotes/003_2026_0305.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0324.md](../lotes/003_2026_0324.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0388.md](../lotes/003_2026_0388.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0410.md](../lotes/003_2026_0410.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0462.md](../lotes/003_2026_0462.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0463.md](../lotes/003_2026_0463.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0468.md](../lotes/003_2026_0468.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0522.md](../lotes/003_2026_0522.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [003_2026_0556.md](../lotes/003_2026_0556.md): análise histórica individual; ler somente para este lote; atualizado 2026-11-08.
++- [Carros_lista.md](../fontes/md/Carros_lista.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [Carros_lista_tabela.md](../fontes/md/Carros_lista_tabela.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [Edital.md](../fontes/md/Edital.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [Resolucao_Contran.md](../fontes/md/Resolucao_Contran.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [Resolucao_SGGD.md](../fontes/md/Resolucao_SGGD.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [aviso_licitação.md](../fontes/md/aviso_licitação.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [comprovacao_de_propriedade.md](../fontes/md/comprovacao_de_propriedade.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [comprovacao_de_propriedade_tabela.md](../fontes/md/comprovacao_de_propriedade_tabela.md): fonte/derivado paginado; buscar trecho para evidência, não carregar integralmente; atualizado 2026-11-08.
++- [auditoria/inventario.md](../auditoria/inventario.md): utilidade de cada original; ler quando necessário; atualizado 2026-11-08.
++- [auditoria/conversao.md](../auditoria/conversao.md): contagens, amostras e falhas; ler quando necessário; atualizado 2026-11-08.
++- [auditoria/inventario_original.json](../auditoria/inventario_original.json): hashes e metadados dos originais; ler quando necessário; atualizado 2026-11-08.
++- [auditoria/reorganizacao.diff](../auditoria/reorganizacao.diff): adições à memória nesta sessão; ler quando necessário; atualizado 2026-11-08.
++- [templates/analise_lote.md](../templates/analise_lote.md): modelo de ficha; ler quando necessário; atualizado 2026-11-08.
++- [templates/fechamento_sessao.md](../templates/fechamento_sessao.md): modelo de encerramento; ler quando necessário; atualizado 2026-11-08.
++- memoria/arquivo/: destino reservado para logs compactados; ainda sem arquivos.
++- Acervo anterior: PDFs e Markdown/CSV na raiz, evidencias/ e tmp/analise/; preservados e detalhados no inventário.

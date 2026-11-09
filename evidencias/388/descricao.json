@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "renault - duster zen 16",
+  "description": "RENAULT/DUSTER ZEN 16, ANO FAB./MOD. 2020/2021, PLACA\nFUZ6B24, CHASSI 93YHJD201MJ448400, Nº MOTOR\nH4ME734Q080930, RENAVAM 01229265705, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108188). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP) · Leiloeiro: Sodré Santoro · Local: Cesário Lange, SP · utilitarios leves",
+  "url": "https://www.achalote.com/lote/sodresantoro/2814194",
+  "image": [
+    "https://assets.achalote.com/imgs/sodresantoro/2c2e87bcb2f4db3bf78d29edd4b2b5e3eb6941bb.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/aa729efb2573e8ce5bde9e7758d71b0490c09c2d.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/55853aadd8a2fe8fc55bd0de117fed8c5dd33d61.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/7ac638b13663ba8c2d09185d4a864f3f942b8534.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/2f478736c0f8ffc48d921db0346969c037adc060.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/9d43afd8a92a287e269475a39df82a68d0da29f6.webp"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "achalote",
+    "url": "https://www.achalote.com"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "renault - duster zen 16",
+    "description": "RENAULT/DUSTER ZEN 16, ANO FAB./MOD. 2020/2021, PLACA\nFUZ6B24, CHASSI 93YHJD201MJ448400, Nº MOTOR\nH4ME734Q080930, RENAVAM 01229265705, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108188). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP)",
+    "category": "utilitarios leves"
+  }
+}

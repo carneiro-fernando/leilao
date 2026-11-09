@@ -1,0 +1,41 @@
+{
+  "data": "2026-11-09",
+  "autorizacao": "pedido explícito do usuário neste chat",
+  "removidos": [
+    ".DS_Store",
+    "evidencias/.DS_Store",
+    "tmp/.DS_Store",
+    "auditoria/Resolucao_SGGD.pdf.png",
+    "auditoria/amostra_Resolucao_SGGD.png",
+    "auditoria/amostra_Resolucao_Contran.png",
+    "auditoria/amostra_comprovacao_de_propriedade.png",
+    "auditoria/Carros_lista.pdf.png",
+    "auditoria/Edital.pdf.png",
+    "auditoria/Resolucao_Contran.pdf.png",
+    "auditoria/amostra_Carros_lista.png",
+    "auditoria/comprovacao_de_propriedade.pdf.png",
+    "auditoria/amostra_Edital.png",
+    "auditoria/swift_cache/",
+    "tmp/analise/comprovacao_de_propriedade_lines.txt",
+    "tmp/analise/comprovacao_de_propriedade_cols.txt",
+    "tmp/analise/Carros_lista_cols.txt",
+    "tmp/analise/comprovacao_de_propriedade_rotated.txt",
+    "tmp/analise/Carros_lista_lines.txt",
+    "tmp/analise/comprovacao_de_propriedade_strips.txt",
+    "tmp/analise/Carros_lista_strips.txt"
+  ],
+  "movidos": {
+    "aviso_licitação.pdf": "fontes/pdf/aviso_licitação.pdf",
+    "Edital.pdf": "fontes/pdf/Edital.pdf",
+    "comprovacao_de_propriedade.pdf": "fontes/pdf/comprovacao_de_propriedade.pdf",
+    "Resolucao_SGGD.pdf": "fontes/pdf/Resolucao_SGGD.pdf",
+    "Carros_lista.pdf": "fontes/pdf/Carros_lista.pdf",
+    "Resolucao_Contran.pdf": "fontes/pdf/Resolucao_Contran.pdf",
+    "carros_conferencia.csv": "dados/carros_conferencia.csv",
+    "carros_interesse.csv": "dados/carros_interesse.csv",
+    "Condições de venda.md": "arquivo/Condições de venda.md",
+    "comparacao_preliminar_carros.md": "arquivo/comparacao_preliminar_carros.md",
+    "contexto_memoria_leilao_003_2026.md": "arquivo/contexto_memoria_leilao_003_2026.md",
+    "tmp/analise/": "arquivo/ocr/"
+  }
+}

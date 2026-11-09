@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "renault - duster 16 e 4x2",
+  "description": "RENAULT/DUSTER 16 E 4X2, ANO FAB./MOD. 2015/2016, PLACA\nFVE3E24, CHASSI 93YHSRAF5GJ138886, Nº MOTOR\nK4MU884Q014579, RENAVAM 01066536276, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 107527). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP) · Leiloeiro: Sodré Santoro · Local: Cesário Lange, SP · carros",
+  "url": "https://www.achalote.com/lote/sodresantoro/2813929",
+  "image": [
+    "https://assets.achalote.com/imgs/sodresantoro/a30fdaae484fb5cd23e630eb95e5529d416f2ab5.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/8320751743c6d74f39b6482a4e2d14a35b10523f.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/d80f88fb4178976885e424f519ef730f3715550d.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/172cc43ec8baa39450b039f156d485599029a73f.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/15af6a774fe6dc38c13000a9a5cf6b8bb3d22b4d.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/13092734f27438bb9325c1a6ab614cf766ed8fe3.webp"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "achalote",
+    "url": "https://www.achalote.com"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "renault - duster 16 e 4x2",
+    "description": "RENAULT/DUSTER 16 E 4X2, ANO FAB./MOD. 2015/2016, PLACA\nFVE3E24, CHASSI 93YHSRAF5GJ138886, Nº MOTOR\nK4MU884Q014579, RENAVAM 01066536276, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 107527). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP)",
+    "category": "carros"
+  }
+}

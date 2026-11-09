@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "renault - duster exp16 sce",
+  "description": "RENAULT/DUSTER EXP16 SCE, ANO FAB./MOD. 2019/2020, PLACA\nFAQ1283, CHASSI 93YHSR3H5LJ194823, Nº MOTOR\nH4MF735Q059851, RENAVAM 01221173364, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 107870). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP) · Leiloeiro: Sodré Santoro · Local: Cesário Lange, SP · utilitarios leves",
+  "url": "https://www.achalote.com/lote/sodresantoro/2814049",
+  "image": [
+    "https://assets.achalote.com/imgs/sodresantoro/27fbdde6d72374bf7847bef3f3660cf784225fe4.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/a55eb1f5a582c46caa3f79e0cca648c871b06c67.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/e690c6941f6e1b97d785d84026c1a15034f2c0c3.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/5ac1f08d36c3fa78cc105193ebfc7383058b09d8.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/67ffa8dbf997279c601368a3dfab6de4cb96b876.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/221d6e9b62ce36e4c281ae23fd31462f06b61ee2.webp"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "achalote",
+    "url": "https://www.achalote.com"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "renault - duster exp16 sce",
+    "description": "RENAULT/DUSTER EXP16 SCE, ANO FAB./MOD. 2019/2020, PLACA\nFAQ1283, CHASSI 93YHSR3H5LJ194823, Nº MOTOR\nH4MF735Q059851, RENAVAM 01221173364, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (CAMIONETA/MISTO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 107870). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP)",
+    "category": "utilitarios leves"
+  }
+}

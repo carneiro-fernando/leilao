@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "citroen - aircross m feel",
+  "description": "CITROEN/AIRCROSS M FEEL, ANO FAB./MOD. 2016/2017, PLACA\nFCK1215, CHASSI 935SUNFN1HB525149, Nº MOTOR\n10DGAB0006010, RENAVAM 01114495562, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (AUTOMÓVEL/PASSAGEIRO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108067). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP) · Leiloeiro: Sodré Santoro · Local: Cesário Lange, SP · carros",
+  "url": "https://www.achalote.com/lote/sodresantoro/2814116",
+  "image": [
+    "https://assets.achalote.com/imgs/sodresantoro/de67ba551d70a5e8ce65bff1c1ecaf58886fe777.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/195db4af3537ebf56fe6f6e6e1c33f903becce3f.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/7aa4e94d02333f709e828c3e7d0373303b092e5a.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/89b5ae4deb60e5f4d2ec555016795f959860a541.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/06cd94fe301aa4763a133af1d7197f0bda719aaa.webp",
+    "https://assets.achalote.com/imgs/sodresantoro/7e7e04bc0673229006e395335b839c95cd3d6f46.webp"
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "achalote",
+    "url": "https://www.achalote.com"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "citroen - aircross m feel",
+    "description": "CITROEN/AIRCROSS M FEEL, ANO FAB./MOD. 2016/2017, PLACA\nFCK1215, CHASSI 935SUNFN1HB525149, Nº MOTOR\n10DGAB0006010, RENAVAM 01114495562, COR BRANCA, COMB. ÁLCOOL/GASOLINA. (AUTOMÓVEL/PASSAGEIRO). (COM DIREITO A\nDOCUMENTO). (VEÍCULO VENDIDO SEM GARANTIA, NAS\nCONDIÇÕES E NO ESTADO MATERIAL E JURÍDICO EM QUE SE\nENCONTRA). (CÓDIGO INTERNO: 108067). (DEPÓSITO: PÁTIO\nCESÁRIO LANGE / SP)",
+    "category": "carros"
+  }
+}
